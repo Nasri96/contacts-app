@@ -1,0 +1,6 @@
+.textError {
+    margin: 15px;
+    padding: 3px;
+    color: var(--color-text-error);
+    text-align: center;
+}

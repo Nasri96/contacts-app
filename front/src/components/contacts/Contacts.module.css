@@ -1,0 +1,44 @@
+.contactListHeaders {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 10px;
+    border-bottom: var(--border-1);
+    padding-bottom: 10px;
+}
+
+.contactListHeaders h4 {
+    flex: 0 0 180px;
+}
+
+.contactList {
+    display: flex;
+    flex-direction: column;
+    min-height: 50vh;
+}
+
+.contactItem {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5px;
+    transition: transform 0.2s;
+    border: 1px solid transparent;
+}
+
+.contactItem:hover p {
+    color: var(--color-text-active);
+}
+
+.contactItem:hover {
+    transform: translateX(5px);
+    border: var(--border-1);
+    border-radius: var(--border-radius);
+}
+
+.contactItem p {
+    text-align: center;
+    flex: 0 0 180px;
+    padding: 5px;
+}

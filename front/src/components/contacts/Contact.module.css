@@ -1,0 +1,46 @@
+.contact {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact .contactBasics {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact .contactSocials {
+    display: flex;
+    flex-direction: column;
+}
+
+.contactSocials .contactSocialsIcons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact h3 {
+    text-align: center;
+    margin: 6px;
+    padding: 6px;
+}
+
+.contact p {
+    padding: 3px;
+    margin: 3px 0;
+}
+
+
+@media screen and (max-width: 768px) {
+    .contact {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+/* 
+320px — 480px: Mobile devices
+481px — 768px: iPads, Tablets
+769px — 1024px: Small screens, laptops
+1025px — 1200px: Desktops, large screens
+1201px and more —  Extra large screens, TV
+*/

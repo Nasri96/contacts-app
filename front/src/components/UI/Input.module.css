@@ -1,0 +1,29 @@
+.inputContainerRow {
+    display: flex;
+    align-items: center;
+    margin: 6px;
+    padding: 3px;
+}
+
+.inputContainerColumn {
+    display: flex;
+    flex-direction: column;
+    margin: 6px;
+    padding: 3px;
+}
+
+.input {
+    padding: 5px;
+    outline: none;
+    border: var(--border-2);
+    background-color: var(--color-background-1);
+    color: var(--color-text-text);
+    border-radius: var(--border-radius);
+}
+
+.label {
+    padding: 3px;
+    color: var(--color-text-header);
+    border-radius: var(--border-radius);
+    margin: 5px 3px;
+}

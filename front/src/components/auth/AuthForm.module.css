@@ -1,0 +1,11 @@
+.text {
+    margin: 6px;
+    padding: 3px;
+}
+
+.textError {
+    margin: 15px;
+    padding: 3px;
+    color: var(--color-text-error);
+    text-align: center;
+}
