@@ -17,6 +17,7 @@ const authController = {
         .then(user => {
             console.log("User created", user);
             const token = createAuthToken(user.username);
+            req.session.userid = user._id;
             res.json({ username: user.username, userid: user._id, authToken: token });
         })
         .catch(err => {
