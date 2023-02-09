@@ -3,7 +3,7 @@ import styles from "./Header.module.css";
 import Dropdown from "./Dropdown";
 import { BsList } from "react-icons/bs";
 import { useMediaQuery } from "react-responsive";
-import { Link, useRouteLoaderData } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { getUser } from "../../helpers/manage-auth";
 
 const Header = () => {

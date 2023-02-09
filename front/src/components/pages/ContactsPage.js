@@ -1,6 +1,6 @@
 import Contacts from "../contacts/Contacts";
 import { json, useLoaderData } from "react-router-dom";
-import { getUser, checkAuth, getAuthToken } from "../../helpers/manage-auth";
+import { checkAuth, getAuthToken } from "../../helpers/manage-auth";
 
 export const loader = async({ request, params }) => {
     const querySearch = new URL(request.url).searchParams.get("search");

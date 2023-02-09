@@ -1,5 +1,5 @@
 import AuthForm from "../auth/AuthForm";
-import { json, redirect } from "react-router-dom";
+import { redirect } from "react-router-dom";
 import { createUser, createAuthToken, createAuthTokenExpiration } from "../../helpers/manage-auth";
 
 export const action = async({ request, params }) => {

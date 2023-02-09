@@ -4,7 +4,7 @@ import { Outlet, useLoaderData } from "react-router-dom";
 import ContentContainer from "../UI/ContentContainer";
 import { Link, useLocation, useSubmit } from "react-router-dom";
 import { useEffect } from "react";
-import { getAuthToken, getAuthTokenExpiration, getUser } from "../../helpers/manage-auth";
+import { getAuthTokenExpiration, getUser } from "../../helpers/manage-auth";
 
 const RootLayout = () => {
     const token = useLoaderData();

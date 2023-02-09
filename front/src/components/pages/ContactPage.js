@@ -1,6 +1,6 @@
 import Contact from "../contacts/Contact";
 import { json, redirect, useLoaderData } from "react-router-dom";
-import { checkAuth, getUser, getAuthToken } from "../../helpers/manage-auth";
+import { checkAuth, getAuthToken } from "../../helpers/manage-auth";
 
 export const loader = async ({ request, params }) => {
     const isNotAuthenticated = checkAuth();

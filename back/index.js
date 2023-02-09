@@ -39,7 +39,7 @@ app.use("/:userid/contacts", contactRoutes);
 
 // Error Handler
 app.use((err, req, res, next) => {
-    console.log(util(err));
+    console.log(util.inspect(err));
     if(err.message.toLowerCase().includes("validation failed:")) {
         res.status(400).json({ error: err.message } );
     } 

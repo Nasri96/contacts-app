@@ -11,7 +11,6 @@ const Contacts = ({ contacts }) => {
         query: "(max-width: 768px)"
     });
     const submit = useSubmit();
-    console.log(contactsDisplay);
 
     const searchHandler = e => {
         const formData = new FormData();
